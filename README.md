@@ -48,6 +48,17 @@ I start with some very simple tests that escalate to CRUD tests that save data t
 
 To run these tests, you must have CFSelenium and testBox installed on your server.
 
+### 6- Running
+
+If you have commandbox installed you can do:
+
+```
+$ box install
+$ box start
+```
+
+This will start up a lucee server on http://localhost:8080 with a datasource configured using user 'root' and password ''. You can change the username and password in the `CFConfig.json` file.
+
 ###
 
 ### References

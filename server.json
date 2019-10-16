@@ -1,0 +1,10 @@
+{
+    "app":{
+        "cfengine":"lucee"
+    },
+    "web":{
+        "http":{
+            "port":"8080"
+        }
+    }
+}
